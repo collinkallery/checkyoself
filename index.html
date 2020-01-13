@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Check-Yo-Self</title>
+</head>
+<body>
+  <nav>
+    <h1>CHECK <span>YO'</span> SELF</h1>
+    <div class="search">
+      <img id="search-button" src="assets/search.svg">
+      <input type="text" placeholder="Search">
+    </div>
+  </nav>
+<main>
+  <section class="col1">
+    <div class="task-input-section">
+      <p class="task-info">Task Title</p>
+      <input class="task-input" type="text">
+      <p id="show-task-item"></p>
+      <p class="task-info">Task Item</p>
+      <input class="task-input" id="specific-task-item" type="text">
+      <button class="task-input-button make-task">Make Task List</button>
+      <button class="task-input-button clear-task">Clear All</button>
+    </div>
+    <div class="urgency-section">
+      <button class="task-input-button">Filter by Urgency</button>
+    </div>
+  </section>
+  <section class="col2">
+    <div class="task-card">
+      <p class="task-title">Task Title</p>
+      <div class="tasks">
+        <img id="unchecked-box" src="assets/checkbox.svg">
+        <p class="chosen-task-item">Lorem Ipsum</p>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+<script src="main.js"></script>
